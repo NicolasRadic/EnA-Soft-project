@@ -1,7 +1,7 @@
 import React from "react";
 import About from "../component/About/About";
-import Banner from "../component/Banner/Banner";
-import Header from "../component/Header/Header";
+import Banner from "../component/header/Header";
+import Header from "../component/navBar/NavBar";
 import Projects from "../component/Projects/Projects";
 
 const Home = () => {
