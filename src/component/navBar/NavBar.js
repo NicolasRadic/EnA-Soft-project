@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faXmark, faBars } from "@fortawesome/free-solid-svg-icons";
 
-const Header = () => {
+const NavBar = () => {
   const [menu, setmenu] = useState(false);
   const openMenu = () => setmenu(!menu);
   const closeMenu = () => setmenu(false);
@@ -112,4 +112,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default NavBar;
