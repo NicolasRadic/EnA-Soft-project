@@ -12,7 +12,7 @@ const Header = () => {
         autoPlay
         loop
         muted
-        className="w-full% w-full h-full object-cover"
+        className="fixed left-0 top-0 -z-20 mt-24 w-full h-full object-cover"
       />
       <div className="absolute w-full h-full top-0 flex  flex-col gap-4 md:gap-8 justify-center items-center text-white z-10">
         <h1 className="text-4xl w-1/2 text-center">
