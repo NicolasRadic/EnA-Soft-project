@@ -5,6 +5,10 @@ module.exports = {
     extend: {
       colors: {
         cyan: "#6DCDEE",
+        overlay: "RGBA(0,0,0,.5)",
+      },
+      backgroundImage: {
+        videoTech: "./src/assets/tech-video-backgroun.mp4",
       },
     },
     screens: {

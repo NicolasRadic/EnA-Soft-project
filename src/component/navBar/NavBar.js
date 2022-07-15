@@ -9,7 +9,7 @@ const NavBar = () => {
   const closeMenu = () => setmenu(false);
 
   return (
-    <div className="flex justify-between items-center h-24 fixed bg-white w-full top-0 left-0">
+    <div className="flex justify-between items-center h-24 fixed bg-white w-full top-0 left-0 z-20">
       <div className="text-3xl font-black pl-2">Logo</div>
 
       <ul className="hidden md:flex text-xl pr-3">
@@ -19,7 +19,7 @@ const NavBar = () => {
             to="header"
             spy={true}
             smooth={true}
-            offset={-96}
+            offset={-95}
             duration={500}
             onClick={closeMenu}
           >
@@ -32,7 +32,7 @@ const NavBar = () => {
             to="about"
             spy={true}
             smooth={true}
-            offset={-96}
+            offset={-95}
             duration={500}
             onClick={closeMenu}
           >
@@ -45,7 +45,7 @@ const NavBar = () => {
             to="projects"
             spy={true}
             smooth={true}
-            offset={-96}
+            offset={-95}
             duration={500}
             onClick={closeMenu}
           >
@@ -68,39 +68,39 @@ const NavBar = () => {
             : "hidden"
         }
       >
-        <li className="header__link  pr-1.5 p-2 border-zinc-300 border-b-2">
+        <li className="header__link p-2 pt-0 border-zinc-300 border-b-2">
           <Link
             activeClass="text-cyan"
             to="header"
             spy={true}
             smooth={true}
-            offset={-96}
+            offset={-95}
             duration={500}
             onClick={closeMenu}
           >
             ACCUEIL
           </Link>
         </li>
-        <li className="header__link pr-1.5 p-2 border-zinc-300 border-b-2 ">
+        <li className="header__link p-2 border-zinc-300 border-b-2 ">
           <Link
             activeClass="text-cyan"
             to="about"
             spy={true}
             smooth={true}
-            offset={-96}
+            offset={-95}
             duration={500}
             onClick={closeMenu}
           >
             À PROPOS
           </Link>
         </li>
-        <li className="header__link pr-1.5 p-2 border-zinc-300 border-b-2">
+        <li className="header__link p-2 border-zinc-300 border-b-2">
           <Link
             activeClass="text-cyan"
             to="projects"
             spy={true}
             smooth={true}
-            offset={-96}
+            offset={-95}
             duration={500}
             onClick={closeMenu}
           >
