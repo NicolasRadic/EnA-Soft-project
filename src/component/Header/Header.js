@@ -18,14 +18,7 @@ const Header = () => {
         <h1 className="text-4xl w-1/2 text-center">
           Improve your automation systems
         </h1>
-        <Link
-          activeClass="text-cyan"
-          to="about"
-          spy={true}
-          smooth={true}
-          offset={-95}
-          duration={1000}
-        >
+        <Link to="about" spy={true} smooth={true} offset={-95} duration={1000}>
           <img src={arrowDown} alt="arrow down" className="w-16 md:w-20 " />
         </Link>
       </div>

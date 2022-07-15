@@ -20,7 +20,7 @@ const NavBar = () => {
             spy={true}
             smooth={true}
             offset={-95}
-            duration={500}
+            duration={1000}
             onClick={closeMenu}
           >
             ACCUEIL
@@ -33,7 +33,7 @@ const NavBar = () => {
             spy={true}
             smooth={true}
             offset={-95}
-            duration={500}
+            duration={1000}
             onClick={closeMenu}
           >
             À PROPOS
@@ -46,7 +46,7 @@ const NavBar = () => {
             spy={true}
             smooth={true}
             offset={-95}
-            duration={500}
+            duration={1000}
             onClick={closeMenu}
           >
             PROJETS
@@ -75,7 +75,7 @@ const NavBar = () => {
             spy={true}
             smooth={true}
             offset={-95}
-            duration={500}
+            duration={1000}
             onClick={closeMenu}
           >
             ACCUEIL
@@ -88,7 +88,7 @@ const NavBar = () => {
             spy={true}
             smooth={true}
             offset={-95}
-            duration={500}
+            duration={1000}
             onClick={closeMenu}
           >
             À PROPOS
@@ -101,7 +101,7 @@ const NavBar = () => {
             spy={true}
             smooth={true}
             offset={-95}
-            duration={500}
+            duration={1000}
             onClick={closeMenu}
           >
             PROJETS
