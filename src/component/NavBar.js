@@ -13,7 +13,7 @@ const NavBar = () => {
       <div className="text-3xl font-black pl-2">Logo</div>
 
       <ul className="hidden md:flex text-xl pr-3">
-        <li className="header__link  pr-1.5">
+        <li className="pr-1.5">
           <Link
             activeClass="text-cyan"
             to="header"
@@ -26,7 +26,7 @@ const NavBar = () => {
             ACCUEIL
           </Link>
         </li>
-        <li className="header__link pr-1.5">
+        <li className="pr-1.5">
           <Link
             activeClass="text-cyan"
             to="about"
@@ -39,7 +39,20 @@ const NavBar = () => {
             À PROPOS
           </Link>
         </li>
-        <li className="header__link pr-1.5">
+        <li className="pr-1.5">
+          <Link
+            activeClass="text-cyan"
+            to="services"
+            spy={true}
+            smooth={true}
+            offset={-95}
+            duration={1000}
+            onClick={closeMenu}
+          >
+            SERVICES
+          </Link>
+        </li>
+        <li className="pr-1.5">
           <Link
             activeClass="text-cyan"
             to="projects"
@@ -68,7 +81,7 @@ const NavBar = () => {
             : "hidden"
         }
       >
-        <li className="header__link p-2 pt-0 border-zinc-300 border-b-2">
+        <li className="p-2 pt-0 border-zinc-300 border-b-2">
           <Link
             activeClass="text-cyan"
             to="header"
@@ -81,7 +94,7 @@ const NavBar = () => {
             ACCUEIL
           </Link>
         </li>
-        <li className="header__link p-2 border-zinc-300 border-b-2 ">
+        <li className="p-2 border-zinc-300 border-b-2 ">
           <Link
             activeClass="text-cyan"
             to="about"
@@ -94,7 +107,20 @@ const NavBar = () => {
             À PROPOS
           </Link>
         </li>
-        <li className="header__link p-2 border-zinc-300 border-b-2">
+        <li className="p-2 border-zinc-300 border-b-2 ">
+          <Link
+            activeClass="text-cyan"
+            to="services"
+            spy={true}
+            smooth={true}
+            offset={-95}
+            duration={1000}
+            onClick={closeMenu}
+          >
+            SERVICES
+          </Link>
+        </li>
+        <li className="p-2 border-zinc-300 border-b-2">
           <Link
             activeClass="text-cyan"
             to="projects"
