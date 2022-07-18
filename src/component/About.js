@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div className="about bg-white  flex flex-col md:flex-row py-5 ">
       <div className="p-4">
-        <h1 className="p-4 text-2xl font-bold relative">À propos</h1>
+        <h2 className="p-4 text-2xl font-bold relative">À propos</h2>
         <div className="absolute h-2 w-28 bg-cyan translate-x-3 -translate-y-4"></div>
         <p className="">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum,
