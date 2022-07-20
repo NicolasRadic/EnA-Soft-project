@@ -3,13 +3,13 @@ import devisImg from "../assets/tech-image-2.jpg";
 
 const Services = () => {
   return (
-    <div className="services bg-white py-5 p-4 flex flex-col justify-center items-center md:px-32 ">
+    <div className="services bg-white py-5  flex flex-col justify-center items-center  ">
       <div>
         <h2 className="p-4 text-2xl font-bold relative">Services</h2>
         <div className="absolute h-2 w-24 bg-cyan translate-x-3.5 -translate-y-4"></div>
       </div>
-      <div className="my-8 flex flex-col md:flex-row md:gap-4">
-        <div className=" bg-zinc-300 mb-4">
+      <div className="my-8 flex flex-row justify-center items-center flex-wrap  md:gap-4">
+        <div className=" bg-zinc-300 mb-4 w-[22rem]">
           <img
             src={devisImg}
             alt="service"
@@ -23,7 +23,7 @@ const Services = () => {
             sed porro voluptatem.
           </p>
         </div>
-        <div className=" bg-zinc-300 mb-4">
+        <div className=" bg-zinc-300 mb-4 w-[22rem]">
           <img
             src={devisImg}
             alt="service"
@@ -37,7 +37,7 @@ const Services = () => {
             sed porro voluptatem.
           </p>
         </div>
-        <div className=" bg-zinc-300 mb-4">
+        <div className=" bg-zinc-300 mb-4 w-[22rem]">
           <img
             src={devisImg}
             alt="service"

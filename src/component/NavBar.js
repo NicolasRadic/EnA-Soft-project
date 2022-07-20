@@ -9,7 +9,7 @@ const NavBar = () => {
   const closeMenu = () => setmenu(false);
 
   return (
-    <div className="flex justify-between items-center h-24 fixed bg-white w-full top-0 left-0 z-20">
+    <div className="flex justify-between items-center h-24 fixed bg-white w-full top-0 left-0 z-20 shadow-zinc-300 shadow-sm">
       <div className="text-3xl font-black pl-2">Logo</div>
 
       <ul className="hidden md:flex text-xl pr-3">
@@ -32,7 +32,7 @@ const NavBar = () => {
             to="services"
             spy={true}
             smooth={true}
-            offset={-95}
+            offset={-96}
             duration={1000}
             onClick={closeMenu}
           >
@@ -45,7 +45,7 @@ const NavBar = () => {
             to="about"
             spy={true}
             smooth={true}
-            offset={-95}
+            offset={-96}
             duration={1000}
             onClick={closeMenu}
           >
@@ -59,7 +59,7 @@ const NavBar = () => {
             to="projects"
             spy={true}
             smooth={true}
-            offset={-95}
+            offset={-96}
             duration={1000}
             onClick={closeMenu}
           >
