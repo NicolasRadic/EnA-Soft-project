@@ -19,7 +19,7 @@ const NavBar = () => {
             to="header"
             spy={true}
             smooth={true}
-            offset={-95}
+            offset={-96}
             duration={1000}
             onClick={closeMenu}
           >
@@ -88,11 +88,24 @@ const NavBar = () => {
             to="header"
             spy={true}
             smooth={true}
-            offset={-95}
+            offset={-96}
             duration={1000}
             onClick={closeMenu}
           >
             ACCUEIL
+          </Link>
+        </li>
+        <li className="p-2 pt-0 border-zinc-300 border-b-2">
+          <Link
+            activeClass="text-cyan"
+            to="services"
+            spy={true}
+            smooth={true}
+            offset={-95}
+            duration={1000}
+            onClick={closeMenu}
+          >
+            SERVICES
           </Link>
         </li>
 
