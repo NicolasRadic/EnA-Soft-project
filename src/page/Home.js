@@ -1,5 +1,6 @@
 import React from "react";
 import About from "../component/About";
+import Footer from "../component/Footer";
 import Header from "../component/Header";
 import NavBar from "../component/NavBar";
 import Projects from "../component/Projects";
@@ -10,9 +11,10 @@ const Home = () => {
     <div className="home">
       <NavBar />
       <Header />
-      <About />
       <Services />
+      <About />
       <Projects />
+      <Footer />
     </div>
   );
 };

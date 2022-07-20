@@ -18,8 +18,18 @@ const Header = () => {
         <h1 className="text-4xl md:text-5xl w-1/2 text-center">
           Improve your automation systems
         </h1>
-        <Link to="about" spy={true} smooth={true} offset={-95} duration={1000}>
-          <img src={arrowDown} alt="arrow down" className="w-16 md:w-20 " />
+        <Link
+          to="services"
+          spy={true}
+          smooth={true}
+          offset={-95}
+          duration={1000}
+        >
+          <img
+            src={arrowDown}
+            alt="arrow down"
+            className="w-16 h-16 md:w-20 md:h-20 "
+          />
         </Link>
       </div>
     </div>

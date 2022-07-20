@@ -1,12 +1,18 @@
 import React from "react";
+import aboutImg from "../assets/tech-image-2.jpg";
 
 const About = () => {
   return (
-    <div className="about bg-white  flex flex-col md:flex-row py-5 ">
-      <div className="p-4">
+    <div className="about bg-zinc-300  flex flex-col md:flex-row-reverse ">
+      <img
+        src={aboutImg}
+        alt="about us"
+        className="md:w-1/2 md:h-full object-cover"
+      />
+      <div className="p-4 md:pr-20 md:pl-40 ">
         <h2 className="p-4 text-2xl font-bold relative">À propos</h2>
         <div className="absolute h-2 w-28 bg-cyan translate-x-3 -translate-y-4"></div>
-        <p className="">
+        <p className=" my-8 px-4 ">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum,
           accusantium. Perferendis excepturi eos dolor sed illo quod odio
           cupiditate illum vel cumque dignissimos nobis consequuntur,

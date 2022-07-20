@@ -29,19 +29,6 @@ const NavBar = () => {
         <li className="pr-1.5">
           <Link
             activeClass="text-cyan"
-            to="about"
-            spy={true}
-            smooth={true}
-            offset={-95}
-            duration={1000}
-            onClick={closeMenu}
-          >
-            À PROPOS
-          </Link>
-        </li>
-        <li className="pr-1.5">
-          <Link
-            activeClass="text-cyan"
             to="services"
             spy={true}
             smooth={true}
@@ -52,6 +39,20 @@ const NavBar = () => {
             SERVICES
           </Link>
         </li>
+        <li className="pr-1.5">
+          <Link
+            activeClass="text-cyan"
+            to="about"
+            spy={true}
+            smooth={true}
+            offset={-95}
+            duration={1000}
+            onClick={closeMenu}
+          >
+            À PROPOS
+          </Link>
+        </li>
+
         <li className="pr-1.5">
           <Link
             activeClass="text-cyan"
@@ -94,6 +95,7 @@ const NavBar = () => {
             ACCUEIL
           </Link>
         </li>
+
         <li className="p-2 border-zinc-300 border-b-2 ">
           <Link
             activeClass="text-cyan"
@@ -107,19 +109,7 @@ const NavBar = () => {
             À PROPOS
           </Link>
         </li>
-        <li className="p-2 border-zinc-300 border-b-2 ">
-          <Link
-            activeClass="text-cyan"
-            to="services"
-            spy={true}
-            smooth={true}
-            offset={-95}
-            duration={1000}
-            onClick={closeMenu}
-          >
-            SERVICES
-          </Link>
-        </li>
+
         <li className="p-2 border-zinc-300 border-b-2">
           <Link
             activeClass="text-cyan"
