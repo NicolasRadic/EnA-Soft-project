@@ -1,5 +1,6 @@
 import React from "react";
 import About from "../component/About";
+import Contact from "../component/Contact";
 import Footer from "../component/Footer";
 import Header from "../component/Header";
 import NavBar from "../component/NavBar";
@@ -14,6 +15,7 @@ const Home = () => {
       <Services />
       <About />
       <Projects />
+      <Contact />
       <Footer />
     </div>
   );
