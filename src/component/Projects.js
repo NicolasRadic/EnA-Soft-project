@@ -3,7 +3,7 @@ import projectImg from "../assets/tech-image-2.jpg";
 
 const Projects = () => {
   return (
-    <div className="projects p-4 flex flex-col justify-center items-center bg-white ">
+    <div className="projects py-4 flex flex-col justify-center items-center bg-white ">
       <div>
         <h2 className="p-4 text-2xl font-bold relative">Projets</h2>
         <div className="absolute h-2 w-24 bg-cyan translate-x-2 -translate-y-4"></div>
