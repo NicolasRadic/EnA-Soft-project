@@ -11,7 +11,7 @@ const NavBar = () => {
 
   return (
     <div className="flex justify-between items-center h-24 fixed bg-white w-full top-0 left-0 z-50 shadow-zinc-300 shadow-sm">
-      <img src={logoEnASoft} alt="siemens" className="w-48 h-24 " />
+      <img src={logoEnASoft} alt="EnA Soft logo" className="w-48 h-24 " />
 
       <ul className="hidden md:flex text-xl pr-3">
         <li className="pr-1.5">

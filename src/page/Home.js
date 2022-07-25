@@ -10,7 +10,7 @@ import Services from "../component/Services";
 
 const Home = () => {
   return (
-    <div className="home">
+    <div>
       <NavBar />
       <Header />
       <Services />

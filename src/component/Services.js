@@ -9,7 +9,7 @@ const Services = () => {
         <div className="absolute h-2 w-24 bg-cyan translate-x-3.5 -translate-y-4"></div>
       </div>
       <div className="my-8 flex flex-row justify-center items-center flex-wrap  gap-4">
-        <div className=" bg-zinc-300  w-[22rem]">
+        <div className=" bg-zinc-300  w-80">
           <img
             src={devisImg}
             alt="service"
@@ -23,7 +23,7 @@ const Services = () => {
             sed porro voluptatem.
           </p>
         </div>
-        <div className=" bg-zinc-300  w-[22rem]">
+        <div className=" bg-zinc-300  w-80">
           <img
             src={devisImg}
             alt="service"
@@ -37,7 +37,7 @@ const Services = () => {
             sed porro voluptatem.
           </p>
         </div>
-        <div className=" bg-zinc-300  w-[22rem]">
+        <div className=" bg-zinc-300  w-80">
           <img
             src={devisImg}
             alt="service"
