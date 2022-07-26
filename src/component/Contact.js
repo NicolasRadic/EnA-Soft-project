@@ -1,24 +1,7 @@
 import React, { useRef } from "react";
-import emailjs from "emailjs-com";
+import Form from "./Form";
 
 const Contact = () => {
-  const form = useRef();
-  const sendEmail = (e) => {
-    e.preventDefault();
-
-    emailjs
-      .sendForm("gmail", "template_z3el6kl", form.current, "d5ShAEFEcthcqS_Uj")
-      .then(
-        (result) => {
-          console.log(result.text);
-          e.target.reset();
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-  };
-
   return (
     <div className="contact bg-white flex justify-center items-center flex-col">
       <div className="mb-4">
@@ -48,34 +31,7 @@ const Contact = () => {
         ></iframe>
       </div>
       <div className="flex flex-col md:flex-row justify-center items-center gap-8 md:gap-40 my-8">
-        <div className="p-3">
-          <form ref={form} onSubmit={sendEmail}>
-            <div className="flex flex-col">
-              <label htmlFor="name">Prénom : </label>
-              <input type="text" id="name" name="name" className="border" />
-            </div>
-            <div className="flex flex-col">
-              <label htmlFor="surname">Nom de famille : </label>
-              <input
-                type="text"
-                id="surname"
-                name="surname"
-                className="border"
-              />
-            </div>
-            <div className="flex flex-col">
-              <label htmlFor="mail">email : </label>
-              <input type="email" id="mail" name="mail" className="border" />
-            </div>
-            <div className="flex flex-col">
-              <label htmlFor="message">Message : </label>
-              <textarea name="message" id="msg" className="border"></textarea>
-            </div>
-            <button type="submit" className="border">
-              Envoyer
-            </button>
-          </form>
-        </div>
+        <Form />
         <div>
           <h4 className="text-xl font-bold pb-2"> Adresse </h4>
           <p>Rue d'Abhooz 31, 4040 Herstal</p>
