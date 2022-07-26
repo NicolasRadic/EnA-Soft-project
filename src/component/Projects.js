@@ -23,7 +23,7 @@ const Projects = () => {
             alt="project 1"
             className="absolute object-cover w-80 h-80 group-hover:opacity-20"
           />
-          <h3 className="opacity-0 group-hover:opacity-100 z-20 ">Projets 1</h3>
+          <h3 className="opacity-0 group-hover:opacity-100 z-20 ">Projets 2</h3>
         </div>
         <div className="w-80 h-80 bg-zinc-300  flex justify-center items-center group relative">
           <img
@@ -31,7 +31,7 @@ const Projects = () => {
             alt="project 1"
             className="absolute object-cover w-80 h-80 group-hover:opacity-20"
           />
-          <h3 className="opacity-0 group-hover:opacity-100 z-20 ">Projets 1</h3>
+          <h3 className="opacity-0 group-hover:opacity-100 z-20 ">Projets 3</h3>
         </div>
         <div className="w-80 h-80 bg-zinc-300  flex justify-center items-center group relative">
           <img
@@ -39,7 +39,7 @@ const Projects = () => {
             alt="project 1"
             className="absolute object-cover w-80 h-80 group-hover:opacity-20"
           />
-          <h3 className="opacity-0 group-hover:opacity-100 z-20 ">Projets 1</h3>
+          <h3 className="opacity-0 group-hover:opacity-100 z-20 ">Projets 4</h3>
         </div>
       </div>
     </div>
