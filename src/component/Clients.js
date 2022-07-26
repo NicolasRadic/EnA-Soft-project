@@ -14,23 +14,31 @@ const Clients = () => {
       <div className="my-4 flex flex-wrap justify-center items-center gap-4 md:gap-16 ">
         <img
           src={siemens}
+          width="769"
+          height="324"
           alt="siemens"
-          className="w-40 h-20 grayscale hover:grayscale-0"
+          className="w-40 h-auto grayscale hover:grayscale-0"
         />
         <img
           src={spa}
+          width="2090"
+          height="1501"
           alt="spa logo"
-          className="w-28 h-20 grayscale hover:grayscale-0"
+          className="w-28 h-auto grayscale hover:grayscale-0"
         />
         <img
           src={abinbev}
+          width="769"
+          height="324"
           alt="abinbev logo"
-          className="w-44 h-20 grayscale hover:grayscale-0"
+          className="w-44 h-auto grayscale hover:grayscale-0"
         />
         <img
           src={corman}
+          width="360"
+          height="172"
           alt="abinbev logo"
-          className="w-44 h-20 grayscale hover:grayscale-0"
+          className="w-44 h-auto grayscale hover:grayscale-0"
         />
       </div>
     </div>

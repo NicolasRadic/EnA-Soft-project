@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React from "react";
 import Form from "./Form";
 
 const Contact = () => {
@@ -31,9 +31,15 @@ const Contact = () => {
         ></iframe>
       </div>
       <div className="flex flex-col md:flex-row justify-center items-center gap-8 md:gap-40 my-8">
-        <Form />
         <div>
-          <h4 className="text-xl font-bold pb-2"> Adresse </h4>
+          <p className="w-80">
+            Pour toute question, appelez-nous au : 01 23 45 67 89 ou
+            envoyez-nous un message ci-dessous.
+          </p>
+          <Form />
+        </div>
+        <div>
+          <h3 className="text-xl font-bold pb-2"> Adresse </h3>
           <p>Rue d'Abhooz 31, 4040 Herstal</p>
         </div>
       </div>

@@ -11,12 +11,18 @@ const NavBar = () => {
 
   return (
     <div className="flex justify-between items-center h-24 fixed bg-white w-full top-0 left-0 z-50 shadow-zinc-300 shadow-sm">
-      <img src={logoEnASoft} alt="EnA Soft logo" className="w-48 h-24 " />
+      <img
+        src={logoEnASoft}
+        width="762"
+        height="327"
+        alt="EnA Soft logo"
+        className="w-48 h-auto"
+      />
 
       <ul className="hidden md:flex text-xl pr-3">
         <li className="pr-1.5">
           <Link
-            activeClass="text-cyan"
+            activeClass="text-secondaryBlue"
             to="header"
             spy={true}
             smooth={true}
@@ -29,7 +35,7 @@ const NavBar = () => {
         </li>
         <li className="pr-1.5">
           <Link
-            activeClass="text-cyan"
+            activeClass="text-secondaryBlue"
             to="services"
             spy={true}
             smooth={true}
@@ -42,7 +48,7 @@ const NavBar = () => {
         </li>
         <li className="pr-1.5">
           <Link
-            activeClass="text-cyan"
+            activeClass="text-secondaryBlue"
             to="about"
             spy={true}
             smooth={true}
@@ -56,7 +62,7 @@ const NavBar = () => {
 
         <li className="pr-1.5">
           <Link
-            activeClass="text-cyan"
+            activeClass="text-secondaryBlue"
             to="projects"
             spy={true}
             smooth={true}
@@ -69,7 +75,7 @@ const NavBar = () => {
         </li>
         <li className="pr-1.5">
           <Link
-            activeClass="text-cyan"
+            activeClass="text-secondaryBlue"
             to="contact"
             spy={true}
             smooth={true}
@@ -98,7 +104,7 @@ const NavBar = () => {
       >
         <li className="p-2 pt-0 border-zinc-300 border-b-2">
           <Link
-            activeClass="text-cyan"
+            activeClass="text-secondaryBlue"
             to="header"
             spy={true}
             smooth={true}
@@ -111,7 +117,7 @@ const NavBar = () => {
         </li>
         <li className="p-2 pt-0 border-zinc-300 border-b-2">
           <Link
-            activeClass="text-cyan"
+            activeClass="text-secondaryBlue"
             to="services"
             spy={true}
             smooth={true}
@@ -125,7 +131,7 @@ const NavBar = () => {
 
         <li className="p-2 border-zinc-300 border-b-2 ">
           <Link
-            activeClass="text-cyan"
+            activeClass="text-secondaryBlue"
             to="about"
             spy={true}
             smooth={true}
@@ -139,7 +145,7 @@ const NavBar = () => {
 
         <li className="p-2 border-zinc-300 border-b-2">
           <Link
-            activeClass="text-cyan"
+            activeClass="text-secondaryBlue"
             to="projects"
             spy={true}
             smooth={true}
@@ -152,7 +158,7 @@ const NavBar = () => {
         </li>
         <li className="p-2 border-zinc-300 border-b-2">
           <Link
-            activeClass="text-cyan"
+            activeClass="text-secondaryBlue"
             to="contact"
             spy={true}
             smooth={true}

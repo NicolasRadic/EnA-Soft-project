@@ -6,6 +6,7 @@ module.exports = {
       colors: {
         cyan: "#6DCDEE",
         overlay: "RGBA(0,0,0,.5)",
+        secondaryBlue: "rgb(0,135,193)",
       },
       backgroundImage: {
         videoTech: "./src/assets/tech-video-backgroun.mp4",

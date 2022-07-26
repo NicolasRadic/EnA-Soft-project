@@ -4,7 +4,13 @@ import aboutImg from "../assets/tech-image-2.jpg";
 const About = () => {
   return (
     <div className="about bg-zinc-300  flex flex-col md:flex-row-reverse ">
-      <img src={aboutImg} alt="about us" className="md:w-1/2  object-cover" />
+      <img
+        src={aboutImg}
+        width="632"
+        height="273"
+        alt="about us"
+        className="md:w-1/2  object-cover"
+      />
       <div className="p-4 md:pr-10 md:pl-40 md:w-1/2">
         <h2 className="p-4 text-2xl font-bold relative">À propos</h2>
         <div className="absolute h-2 w-28 bg-cyan translate-x-3 -translate-y-4"></div>
