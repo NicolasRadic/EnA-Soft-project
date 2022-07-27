@@ -3,12 +3,12 @@ import devisImg from "../assets/tech-image-2.jpg";
 
 const Services = () => {
   return (
-    <div className="services bg-white py-5  flex flex-col justify-center items-center  ">
-      <div>
+    <div className="services bg-white pt-4 pb-10  flex flex-col justify-center items-center  ">
+      <div className="mb-8">
         <h2 className="p-4 text-2xl font-bold relative">Services</h2>
-        <div className="absolute h-2 w-24 bg-cyan translate-x-3.5 -translate-y-4"></div>
+        <div className="absolute h-2 w-24 bg-secondaryBlue translate-x-3.5 -translate-y-4"></div>
       </div>
-      <div className="my-8 flex flex-row justify-center items-center flex-wrap  gap-4">
+      <div className=" flex flex-row justify-center items-center flex-wrap  gap-4">
         <div className=" bg-zinc-300  w-80">
           <img
             src={devisImg}

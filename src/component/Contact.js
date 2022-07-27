@@ -3,10 +3,10 @@ import Form from "./Form";
 
 const Contact = () => {
   return (
-    <div className="contact bg-white flex justify-center items-center flex-col">
-      <div className="mb-4">
+    <div className="contact pt-4 pb-10  bg-white flex justify-center items-center flex-col">
+      <div className="mb-8">
         <h2 className="p-4 text-2xl font-bold relative">Contact</h2>
-        <div className="absolute h-2 w-24 bg-cyan translate-x-3 -translate-y-4"></div>
+        <div className="absolute h-2 w-24 bg-secondaryBlue translate-x-3 -translate-y-4"></div>
       </div>
       <div className="block md:hidden shadow-md">
         <iframe
@@ -30,17 +30,26 @@ const Contact = () => {
           title="EnA Soft"
         ></iframe>
       </div>
-      <div className="flex flex-col md:flex-row justify-center items-center gap-8 md:gap-40 my-8">
+      <div className="w-full flex flex-col md:flex-row justify-around items-center  mt-8">
         <div>
-          <p className="w-80">
-            Pour toute question, appelez-nous au : 01 23 45 67 89 ou
-            envoyez-nous un message ci-dessous.
+          <h3 className="pl-3 pb-4 text-xl font-bold">Nous contacter</h3>
+          <p className="pl-3 pb-2 ">
+            Pour toute question, appelez-nous au : 01 23 45 67 89 <br />
+            ou envoyez-nous un message ci-dessous.
           </p>
           <Form />
         </div>
         <div>
-          <h3 className="text-xl font-bold pb-2"> Adresse </h3>
-          <p>Rue d'Abhooz 31, 4040 Herstal</p>
+          <h3 className="text-xl font-bold pb-2 mt-8"> Adresse </h3>
+          <p>
+            Rue d'Abhooz 31,
+            <br /> 4040 Herstal
+          </p>
+          <h3 className="text-xl font-bold pb-2 mt-8"> Offres d'emploi </h3>
+          <p>
+            Pour postuler, envoyez votre C.V à l'adresse <br /> e-mail suivant :
+            email.gmail.com
+          </p>
         </div>
       </div>
     </div>

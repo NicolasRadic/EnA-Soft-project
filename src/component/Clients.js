@@ -6,12 +6,12 @@ import corman from "../assets/Corman-removebg.png";
 
 const Clients = () => {
   return (
-    <div className="clients bg-zinc-300 flex justify-center items-center flex-col">
-      <div>
+    <div className="clients pt-4 pb-10 bg-zinc-300 flex justify-center items-center flex-col">
+      <div className="mb-8">
         <h2 className="p-4 text-2xl font-bold relative">Clients</h2>
-        <div className="absolute h-2 w-24 bg-cyan translate-x-2 -translate-y-4"></div>
+        <div className="absolute h-2 w-24 bg-secondaryBlue translate-x-2 -translate-y-4"></div>
       </div>
-      <div className="my-4 flex flex-wrap justify-center items-center gap-4 md:gap-16 ">
+      <div className="flex flex-wrap justify-center items-center gap-4 md:gap-16 ">
         <img
           src={siemens}
           width="769"
